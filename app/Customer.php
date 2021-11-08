@@ -14,7 +14,7 @@ class Customer implements CustomerInterface
         return new Customer();
     }
 
-    public function getBookings(): array
+    public function getBookings(int $customerId): array
     {
         return [];
     }
