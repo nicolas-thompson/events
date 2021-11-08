@@ -1,0 +1,12 @@
+##Code
+Implement the database model below in classes. You should use getters and setters where it makes sense. If you believe it’s needed, use interfaces as well. Please do not use magic methods.
+The classes should be standalone (e.g. not tied to any ORM or library), and a storage layer should not be present. Think of a business data model.
+##Database Model
+Draw a database model of an event booking system.
+The database model should at least contain or support the following:
+● customers (the one making the booking)
+● events (the available events to book) ● bookings
+● payments for a booking
+Include relevant columns that you believe should be included.
+Specify relationships (foreign keys), data types, and constraints you believe are necessary. Please also include length of data in a certain column where it may be required.
+Make use of connection tables etc if needed.
